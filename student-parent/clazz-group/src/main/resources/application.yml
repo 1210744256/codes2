@@ -1,0 +1,8 @@
+server:
+  port: 1111
+spring:
+  application:
+    name: CITY
+  cloud:
+    nacos:
+      server-addr: 192.168.228.133:8848

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baizhi.mapper.StudentMapper">
+
+    <resultMap id="BaseResultMap" type="com.baizhi.entity.Student">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="age" column="age" jdbcType="INTEGER"/>
+            <result property="qq" column="qq" jdbcType="VARCHAR"/>
+            <result property="phone" column="phone" jdbcType="VARCHAR"/>
+            <result property="bir" column="bir" jdbcType="DATE"/>
+            <result property="starts" column="starts" jdbcType="VARCHAR"/>
+            <result property="attr" column="attr" jdbcType="VARCHAR"/>
+            <result property="mark" column="mark" jdbcType="VARCHAR"/>
+            <result property="clazzid" column="clazzId" jdbcType="VARCHAR"/>
+            <result property="groupid" column="groupId" jdbcType="VARCHAR"/>
+            <result property="cityid" column="cityId" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,name,age,
+        qq,phone,bir,
+        starts,attr,mark,
+        clazzId,groupId,cityId
+    </sql>
+</mapper>

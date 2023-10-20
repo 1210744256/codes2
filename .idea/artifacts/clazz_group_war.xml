@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="clazz-group:war">
+    <output-path>$PROJECT_DIR$/student-parent/clazz-group/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>clazz-group</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="clazz-group.war">
+      <element id="artifact" artifact-name="clazz-group:war exploded" />
+    </root>
+  </artifact>
+</component>

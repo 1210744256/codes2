@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/student-parent/clazz-city/clazz-city.iml" filepath="$PROJECT_DIR$/student-parent/clazz-city/clazz-city.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student-parent/clazz-clazz/clazz-clazz.iml" filepath="$PROJECT_DIR$/student-parent/clazz-clazz/clazz-clazz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student-parent/clazz-common/clazz-common.iml" filepath="$PROJECT_DIR$/student-parent/clazz-common/clazz-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student-parent/clazz-gateway/clazz-gateway.iml" filepath="$PROJECT_DIR$/student-parent/clazz-gateway/clazz-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student-parent/clazz-group/clazz-group.iml" filepath="$PROJECT_DIR$/student-parent/clazz-group/clazz-group.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student-parent/clazz-student/clazz-student.iml" filepath="$PROJECT_DIR$/student-parent/clazz-student/clazz-student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student-parent/clazz-tag/clazz-tag.iml" filepath="$PROJECT_DIR$/student-parent/clazz-tag/clazz-tag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student-parent/student-parent.iml" filepath="$PROJECT_DIR$/student-parent/student-parent.iml" />
+    </modules>
+  </component>
+</project>

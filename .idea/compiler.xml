@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="clazz-clazz" />
+        <module name="clazz-student" />
+        <module name="clazz-common" />
+        <module name="clazz-group" />
+        <module name="clazz-city" />
+        <module name="clazz-tag" />
+        <module name="clazz-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="city-group" target="1.8" />
+      <module name="city-tag" target="1.8" />
+      <module name="clazz-city" target="1.8" />
+      <module name="clazz-clazz" target="1.8" />
+      <module name="clazz-common" target="1.8" />
+      <module name="clazz-gateway" target="1.8" />
+      <module name="clazz-group" target="1.8" />
+      <module name="clazz-student" target="1.8" />
+      <module name="clazz-tag" target="1.8" />
+      <module name="student-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="city-group" options="-parameters" />
+      <module name="city-tag" options="-parameters" />
+      <module name="clazz-city" options="-parameters" />
+      <module name="clazz-clazz" options="-parameters" />
+      <module name="clazz-common" options="-parameters" />
+      <module name="clazz-gateway" options="-parameters" />
+      <module name="clazz-group" options="-parameters" />
+      <module name="clazz-student" options="-parameters" />
+      <module name="clazz-tag" options="-parameters" />
+      <module name="student-parent" options="" />
+    </option>
+  </component>
+</project>

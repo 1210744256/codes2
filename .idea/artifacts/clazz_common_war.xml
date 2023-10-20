@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="clazz-common:war">
+    <output-path>$PROJECT_DIR$/student-parent/clazz-common/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>clazz-common</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="clazz-common.war">
+      <element id="artifact" artifact-name="clazz-common:war exploded" />
+    </root>
+  </artifact>
+</component>
